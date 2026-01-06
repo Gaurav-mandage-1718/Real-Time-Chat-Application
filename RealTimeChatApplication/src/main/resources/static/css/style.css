@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #26CCC2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 650px;
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 18px;
+}
+
+#chat {
+    background-color: #f9fafc;
+    border: 1px solid #435663;
+    border-radius: 10px;
+    padding: 12px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+#chat div {
+    
+    padding: 8px 10px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #333;
+}
+
+#chat::-webkit-scrollbar {
+    width: 6px;
+}
+#chat::-webkit-scrollbar-thumb {
+    background-color: #c5cbe3;
+    border-radius: 10px;
+}
+
+.form-control {
+	
+    border-radius: 8px;
+    border: 1px solid #dcdfe8;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px
+}
+
+.form-control:focus {
+    border-color: #5a6fdc;
+    box-shadow: none;
+}
+
+#sendMessage {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #5a6fdc;
+    border: none;
+     margin-top: 10px
+}
+
+#sendMessage:hover {
+    background-color: #4a5fc8;
+}
